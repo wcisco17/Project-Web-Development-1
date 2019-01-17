@@ -1,36 +1,57 @@
 import React from 'react'
+import { COURSES } from '../data/data'
+
+
 
 
 export default () => (
-<div class="blog-container">
-     <div class="blog-container">
-        <div class="blog-header">
-                <div class="blog-cover">
-                    <div class="blog-author">
-                        <h3>
-                            Russ Beye,
-                            <i> Author</i>   
-                         </h3>
+<React.Fragment>
+    {COURSES.map((course) => {
+        const {
+            id,
+            title,
+            description,
+            price,
+            author,
+            avatar,
+            background
+        } = course.courses
+        return (
+        <div className="blog-container" key={id} >
+            <div className="blog-container">
+                <div className="blog-header">
+                        <div className="blog-cover" style={{
+                            backgroundImage: `url(${background})`
+                        }} >
+                            <div className="blog-author">
+                            <img src={`${avatar}`} 
+                            className="img-author"
+                            alt="..."
+                            />
+                                <h3>
+                                    {author},
+                                    <i> Author</i>   
+                                </h3>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div className="blog-body">
+                        <div className="blog-title">
+                            <h1><a href="#">
+                            {title}
+                            </a></h1>
+                        </div>
+                        <div className="blog-summary">
+                            {description}
+                        </div>
+                        <div className="blog-tags">
+                        <ul>
+                            <li><a href="mailto:courses@info.com" style={{ padding: 10 }} >{price}</a></li>
+                        </ul>
+                        </div>
+                    </div>
             </div>
-            <div class="blog-body">
-                <div class="blog-title">
-                    <h1><a href="#">
-                    Beginners guide to HTML
-                    </a></h1>
-                </div>
-                <div class="blog-summary">
-                    In this HTML course be prepared to learn how to build webiste from scratch.
-                    <br />
-                    By completing 20 projects  
-                </div>
-                <div class="blog-tags">
-                <ul>
-                    <li><a href="#" style={{ padding: 10 }} >$20</a></li>
-                </ul>
-                </div>
-            </div>
-       </div>
- </div>
+        </div>
+    )})}
+</React.Fragment>
 )

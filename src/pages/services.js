@@ -11,9 +11,6 @@ export default () => (
             <div className="line0"></div>
             <h1 className="head-services-2" >Our Courses Available</h1>
         <Courses />
-        <Courses />
-        <Courses />
-        <Courses />
         </section>
     </Navigation>
 )

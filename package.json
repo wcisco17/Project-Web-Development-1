@@ -12,9 +12,11 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
+    "formik": "^1.4.2",
     "gatsby": "^2.0.76",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
+    "react-transition-group": "^2.5.3",
     "uuid-js": "^0.7.5"
   },
   "repository": {

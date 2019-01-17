@@ -1,0 +1,39 @@
+/*******************
+     MEDIA RESPONSIVE PAGE
+********************/
+
+
+
+@media (max-width: 1000px) {
+    .contact-header {
+       background-position: bottom;
+       background-size: cover;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .container-contact-1 {
+        width: 630px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .container-contact-1 {
+        width: 400px;
+    }
+    .head-contact-1 {
+        font-size: 2rem;
+    }
+
+}
+
+
+
+@media (max-width: 400px) {
+    .container-contact-1 {
+        width: 300px;
+    }
+}
