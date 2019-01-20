@@ -106,6 +106,9 @@ p a:active
 	position: relative;
 	color: #FF6347;
 }
+.m {
+	color: #3a3a3a !important;
+}
 p a:hover
 {
 	color: #FFFFFF;
@@ -473,6 +476,7 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 1000ms 600ms ease;
 	opacity: 0;
+
 }
 .menu_container.active .menu_list
 {
@@ -486,6 +490,13 @@ section
 .menu_item
 {
 	margin-bottom: 9px;
+	font-size: 2.5rem;
+	font-weight: 730;
+	
+	
+}
+.menu_mm {
+	
 }
 .menu_item li
 {
@@ -498,11 +509,9 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	
 }
-.menu_item a:hover
-{
-	color: #ffb606;
-}
+
 .menu_close_container
 {
 	position: absolute;
@@ -1303,10 +1312,12 @@ section
 	.menu_item
 	{
 		margin-bottom: 0px;
+		
 	}
 	.menu_item li
 	{
 		font-size: 24px;
+		
 	}
 	.menu_copyright
 	{

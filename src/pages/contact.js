@@ -1,8 +1,9 @@
 import React from 'react'
 import Navigation from '../components/nav'
 import { Formik } from "formik";
-
-
+import Header from '../components/header'
+import Background from '../img/contact-img.jpeg'
+import Footer from '../components/footer'
 const submitEmail = (fullName, email, phone, message) => {
     const mail = `
             Full name: ${fullName},
@@ -16,9 +17,7 @@ const submitEmail = (fullName, email, phone, message) => {
 
 export default () => (
     <Navigation>
-        <header className="contact-header" >
-            <h1 className="head-contact-1" >Get in Touch</h1>
-        </header>
+        <Header title={"Get In Touch"} bck={Background} />
         <section className="container-contact-1" >
             <div className="site-section site-section-sm">
                 <div className="container">
@@ -114,5 +113,6 @@ export default () => (
                 </div>
             </div>
         </section>
+        <Footer />
     </Navigation>
 )

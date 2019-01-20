@@ -2,15 +2,16 @@ import React from 'react'
 import Navigation from '../components/nav'
 import Courses from '../components/courses'
 
+import Container from '../components/container'
+import Header from '../components/header'
+import Background from '../img/rawpixel-983726-unsplash.jpg'
+import Footer from '../components/footer'
 export default () => (
     <Navigation>
-        <header className="header-services" >
-            <h1 className="head-services-1" >Courses</h1>
-        </header>
-        <section className="container-services" >
-            <div className="line0"></div>
-            <h1 className="head-services-2" >Our Courses Available</h1>
-        <Courses />
-        </section>
+        <Header title={"Courses"} bck={Background} />
+        <Container title={"Our Courses Available"} >
+            <Courses />
+            <Footer />
+        </Container>
     </Navigation>
 )

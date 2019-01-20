@@ -3,10 +3,11 @@ import { Link } from "gatsby"
 
 
 
+
 const ListLink = props => (  
-        <li class="main_nav_item">
-        <Link to={props.to}>{props.children}</Link>
-        </li>
+	<li className="menu_item menu_mm">
+		<Link className="m" to={props.to}>{props.children}</Link>
+	</li>
 )
 
 
@@ -22,9 +23,9 @@ export default ({ active, closeActive }) => (
 			<div className="menu menu_mm">
 				<ul className="menu_list menu_mm">
 					<ListLink to="/">Home</ListLink>
-                    <ListLink className="menu_item menu_mm" to="/aboutus/">About Us</ListLink>
-                    <ListLink className="menu_item menu_mm" to="/services">Services</ListLink>
-                    <ListLink className="menu_item menu_mm" to="/contact/">Contact Us</ListLink>
+                    <ListLink to="/aboutus/">About Us</ListLink>
+                    <ListLink to="/services">Services</ListLink>
+                    <ListLink to="/contact/">Contact Us</ListLink>
 				</ul>
 				<div className="menu_copyright menu_mm">Angu All rights reserved</div>
 			</div>

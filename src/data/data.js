@@ -60,4 +60,15 @@ export const COURSES = [
             background: "https://udemy-images.udemy.com/course/750x422/1218586_9f86.jpg"
         }
     },
+    {
+        courses: {
+            id: String(uuid.create()),
+            title: "The Complete 2019 Web Development Bootcamp 2",
+            description: "The only course you need to learn to code and become a full-stack web developer. HTML, CSS, Javascript, Node and more!",
+            price: `$${15}`,
+            author: "Williams Sissoko",
+            avatar: "https://randomuser.me/api/portraits/men/49.jpg",
+            background: "https://udemy-images.udemy.com/course/750x422/1218586_9f86.jpg"
+        }
+    },
 ]

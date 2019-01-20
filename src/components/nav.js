@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import HiddenNavigation from './hiddenNav'
 
 const ListLink = props => (  
-        <li class="main_nav_item">
+        <li className="main_nav_item">
         <Link to={props.to}>{props.children}</Link>
         </li>
 )
@@ -14,16 +14,16 @@ const ListLink = props => (
 
 const Hidden = ({ children, active, setActive, closeActive }) => (
     <section>
-        <header class="header d-flex flex-row">
-            <div class="header_content d-flex flex-row align-items-center">
-            <div class="logo_container">
-				<div class="logo">
+        <header className="header d-flex flex-row">
+            <div className="header_content d-flex flex-row align-items-center">
+            <div className="logo_container">
+				<div className="logo">
 					<span>angu</span>
 				</div>
 			</div>
-			<nav class="main_nav_container">
-				<div class="main_nav">
-					<ul class="main_nav_list">
+			<nav className="main_nav_container">
+				<div className="main_nav">
+					<ul className="main_nav_list">
                     <ListLink to="/">Home</ListLink>
                     <ListLink to="/aboutus/">About Us</ListLink>
                     <ListLink to="/services">Services</ListLink>
@@ -32,8 +32,8 @@ const Hidden = ({ children, active, setActive, closeActive }) => (
 				</div>
 			</nav>
            </div>
-            <div class="hamburger_container" onClick={() => setActive()} >
-                <div class="menuFive">
+            <div className="hamburger_container" onClick={() => setActive()} >
+                <div className="menuFive">
                     <span></span>
                     <span></span>
                     <span></span>
