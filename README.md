@@ -5,3 +5,4 @@
 
 - Fix responsive for mobile
 - Add additional Styles for the Home and About Page.
+- Deploy to Heroku
