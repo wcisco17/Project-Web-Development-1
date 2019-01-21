@@ -1,4 +1,6 @@
-# Project for Web Development 1 course, using Gatsby and React for the frontend and a dummy set of Data for the backend.
+# Project for Web Development 1 course.
+
+By using Gatsby and React for the frontend and a dummy set of Data for the backend.
 
 
 # In progress: Todo
