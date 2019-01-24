@@ -12,7 +12,7 @@ import '@brainhubeu/react-carousel/lib/style.css';
 import "../styles/bootstrap.min.css"
 import SectionHome from '../components/section-home';
 
-
+// loader for cards https://cloudcannon.com/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html
 
 export default class Carousels extends React.PureComponent {
 	constructor(props) {
