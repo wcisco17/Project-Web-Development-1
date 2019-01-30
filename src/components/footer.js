@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Fac from '../data/fac.svg'
+
 
 
 export default () => (

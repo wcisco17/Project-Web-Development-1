@@ -14,6 +14,8 @@ import SectionHome from '../components/section-home';
 
 
 
+
+ 
 export default class Carousels extends React.PureComponent {
 	constructor(props) {
 		super(props);

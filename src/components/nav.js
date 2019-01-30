@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import HiddenNavigation from './hiddenNav'
 
-const ListLink = props => (  
+export const ListLink = props => (  
         <li className="main_nav_item">
         <Link to={props.to}>{props.children}</Link>
         </li>

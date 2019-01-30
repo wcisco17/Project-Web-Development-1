@@ -4,6 +4,8 @@ import { Formik } from "formik";
 import Header from '../components/header'
 import Background from '../img/contact-img.jpeg'
 import Footer from '../components/footer'
+
+
 const submitEmail = (fullName, email, phone, message) => {
     const mail = `
             Full name: ${fullName},
@@ -31,7 +33,7 @@ export default () => (
             message: ""
         }}
         onSubmit={({ fullName, email, phone, message }, { resetForm }) => {
-            console.log(fullName, email, phone, message)
+
             
             submitEmail(fullName, email, phone, message)
             resetForm() 

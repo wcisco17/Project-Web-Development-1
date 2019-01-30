@@ -1,0 +1,21 @@
+
+[
+    {
+        "id": "0",
+        "title": "Beginners guide to HTML",
+        "description": "HTML is the foundation of all web pages. Without HTML, you wouldn't be able to organize text or add images or videos to your web pages. HTML is the beginning of everything you need to know to create engaging web pages!",
+        "price": 20,
+        "author": "Anthony Williams",
+        "avatar": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/russ.jpeg",
+        "background": "https://udemy-images.udemy.com/course/750x422/59535_1f48_6.jpg"
+    },
+    {
+        "id": "1",
+        "title": "Deep Learning : Plunge into Deep Learning",
+        "description": "Learn to create Deep Learning models starting from basics ",
+        "price": 25,
+        "author": "John Doe",
+        "avatar": "https://randomuser.me/api/portraits/men/30.jpg",
+        "background": "https://cdn-images-1.medium.com/max/1600/1*5ZuLCsB1KXEPgHu-qJ8WxQ.png"
+    }
+]

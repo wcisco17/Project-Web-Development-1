@@ -18,6 +18,8 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "formik": "^1.4.2",
     "gatsby": "^2.0.76",
+    "gatsby-source-filesystem": "^2.0.17",
+    "gatsby-transformer-json": "^2.1.7",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-transition-group": "^2.5.3",
