@@ -15,7 +15,7 @@ By using Gatsby and React for the frontend and a dummy set of Data for the backe
 - Contact page should send info to personal email or backend service like netlify.
 
 
-### Feel free to contribute!
+### Feel free to contribute or install!
 
 - `git clone https://github.com/wcisco17/Project-Web-Development-1.git`
 
