@@ -10,4 +10,18 @@ By using Gatsby and React for the frontend and a dummy set of Data for the backe
 
 
 
+## Todo 
+- Fix the About Us page and Index.
+- Contact page should send info to personal email or backend service like netlify.
+
+
+### Feel free to contribute!
+
+- `git clone https://github.com/wcisco17/Project-Web-Development-1.git`
+
+- `npm install`
+
+Finally...
+
+- `gastby develop`
 
